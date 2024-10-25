@@ -1,0 +1,5 @@
+site_name: Aquaman
+# site_dir: public
+
+theme:
+  name: 'material'
