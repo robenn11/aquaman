@@ -1,0 +1,5 @@
+site_name: Fliesenleger
+# site_dir: public
+
+theme:
+  name: 'material'
