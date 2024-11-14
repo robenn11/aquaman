@@ -3,6 +3,11 @@ give me an introduction to this project. What is it about? What do you use?
 
 This project tries to follow the [12factor](https://12factor.net/de/) principles and the [semantic versioning guidelines](https://semver.org/lang/de/)
   
+## Prerequisites
+- Python 3.x installed on your system
+- Telegram account
+- Docker
+
 ## Getting Started
 ### info
 let other users know that they have to setup a telegram bot via bot father and set the token as environment variable called `TELEGRAM_TOKEN` for local development and when running the docker container.
