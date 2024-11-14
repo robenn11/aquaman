@@ -1,5 +1,5 @@
 FROM python:3.9-slim
-
+LABEL org.opencontainers.image.source=https://github.com/robenn11/aquaman
 WORKDIR /app
 
 COPY requirements.txt .
