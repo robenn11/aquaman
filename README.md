@@ -1,5 +1,7 @@
 # aquaman
 give me an introduction to this project. What is it about? What do you use?  
+
+This project tries to follow the [12factor](https://12factor.net/de/) principles and the [semantic versioning guidelines](https://semver.org/lang/de/)
   
 ## Getting Started
 ### info
