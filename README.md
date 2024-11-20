@@ -15,6 +15,7 @@ This projekt is using GitHub Actions to build and publish a public accessible Do
 1. Open Telegram and search for BotFather.
 2. Start a chat with BotFather and use the command `/newbot`.
 3. Follow the prompts to
+   - asd
   - Give your bot a name
   - Assign it a unique username ending in bot  
 5. Once created,you will receive a token that looks like this: `123456789:ABCdefGhIJklMnoPQRstUVwXyZ123456789`
