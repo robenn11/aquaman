@@ -15,10 +15,9 @@ This projekt is using GitHub Actions to build and publish a public accessible Do
 1. Open Telegram and search for BotFather.
 2. Start a chat with BotFather and use the command `/newbot`.
 3. Follow the prompts to
-   - asd
-  - Give your bot a name
-  - Assign it a unique username ending in bot  
-5. Once created,you will receive a token that looks like this: `123456789:ABCdefGhIJklMnoPQRstUVwXyZ123456789`
+   - Give your bot a name
+   - Assign it a unique username ending in bot  
+4. Once created,you will receive a token that looks like this: `123456789:ABCdefGhIJklMnoPQRstUVwXyZ123456789`
 
 **Important**: Keep this token secure, it grants controle over your bot.
 
@@ -27,12 +26,12 @@ This projekt is using GitHub Actions to build and publish a public accessible Do
 For the bot to work locally or in a Docker container, you need to configure the token as an environment variable named `TELEGRAM_TOKEN`.  
   
 1. Local Development: Enter the following line to your teminal:
-  - `export TELEGRAM_TOKEN="your-bot-token"` for Linux
-  - `set TELEGRAM_TOKEN="your-bot-token"` for Windows  
+   - `export TELEGRAM_TOKEN="your-bot-token"` for Linux
+   - `set TELEGRAM_TOKEN="your-bot-token"` for Windows  
 Replace `your-bot-token` with the token provided by BotFather.  
 
 2. Running in Docker: When running the bot in a Docker container, pass the token as an environment variable:
-  - `docker run -e TELEGRAM_TOKEN="your-bot-token" your-docker-image`
+   - `docker run -e TELEGRAM_TOKEN="your-bot-token" ghcr.io/olialtf4/wasserpegel-rhein-bonn`
 
 ### Verify the Setup
 After setting up, start the bot:
