@@ -42,25 +42,25 @@ You can now interact with your Bot by sending commands like `/start`, `/current`
 
 ## Docker
 
-### 1. Run the Container
+### Run the Container
 To start the bot, use the following command. Replace `INSERT-TOKEN-HERE` with your actual Telegram bot Token:  
 - `docker run --name aqua -e TELEGRAM_TOKEN="INSERT-TOKEN-HERE" ghcr.io/olialtf4/wasserpegel-rhein-bonn`  
 
-### 2. Run the Container in the Background
+### Run the Container in the Background
 To run the container in detached mode (in the background), add the `-d` flag:  
 - `docker run -d --name aqua -e TELEGRAM_TOKEN="INSERT-TOKEN-HERE" ghcr.io/olialtf4/wasserpegel-rhein-bonn`
 
-### 3. Build the Docker Image
+### Build the Docker Image
 If you are building the image locally from a Dockerfile, use:  
 - `docker build -t your-image-name .`  
   
 Replace `your-image-name` with a name for your image.
 
-### 4. List Docker Images
+### List Docker Images
 To view all locally available Docker images, run:  
 - `docker images`
 
-### 5. Remove a Docker Image 
+### Remove a Docker Image 
 To delete a specific Docker image by its ID or name, use:  
 - `docker rmi image-id-or-name`  
   
